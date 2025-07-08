@@ -17,6 +17,7 @@ const observer = new MutationObserver((mutations) => {
             // Call the click function for your specific buttons if they are visible
             clickButtonIfVisible('.vjs-overlay-skip-intro[title="Перейти к следующему эпизоду"]'); // Next Episode button selector
             clickButtonIfVisible('.vjs-overlay-skip-intro[title="Нажмите, если лень смотреть опенинг"]'); // Skip Intro button selector
+            clickButtonIfVisible('.vjs-big-play-button[title="Воспроизвести видео"]');
         }
     });
 });
